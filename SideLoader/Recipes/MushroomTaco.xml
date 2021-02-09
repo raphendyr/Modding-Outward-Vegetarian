@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UID>github.raphendyr.vegetarian.mushroomtaco</UID>
+  <StationType>Survival</StationType>
+  <Ingredients>
+    <Ingredient>
+      <Type>AddSpecificIngredient</Type>
+      <SelectorValue>-3101</SelectorValue>
+      <Ingredient_ItemID>0</Ingredient_ItemID>
+    </Ingredient>
+    <Ingredient>
+      <Type>AddSpecificIngredient</Type>
+      <SelectorValue>4000200</SelectorValue>
+      <Ingredient_ItemID>0</Ingredient_ItemID>
+    </Ingredient>
+    <Ingredient>
+      <Type>AddSpecificIngredient</Type>
+      <SelectorValue>4100170</SelectorValue>
+      <Ingredient_ItemID>0</Ingredient_ItemID>
+    </Ingredient>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemID>-3103</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</SL_Recipe>

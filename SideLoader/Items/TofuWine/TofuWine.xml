@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Target_ItemID>4100400</Target_ItemID>
+  <New_ItemID>-3109</New_ItemID>
+  <Name>Tofu au Vin</Name>
+  <Description>Special dish of the Hallowed Marsh that immediately heals wounds, unlike most food.
+
+It also gives the Possessed boon.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable xsi:nil="true" />
+  <IsUsable xsi:nil="true" />
+  <QtyRemovedOnUse xsi:nil="true" />
+  <GroupItemInDisplay xsi:nil="true" />
+  <HasPhysicsWhenWorld xsi:nil="true" />
+  <RepairedInRest xsi:nil="true" />
+  <BehaviorOnNoDurability xsi:nil="true" />
+  <CastType xsi:nil="true" />
+  <CastModifier xsi:nil="true" />
+  <CastLocomotionEnabled xsi:nil="true" />
+  <MobileCastMovementMult xsi:nil="true" />
+  <CastSheatheRequired xsi:nil="true" />
+  <OverrideSellModifier xsi:nil="true" />
+  <Tags>
+    <string>Dish</string>
+    <string>Food</string>
+    <string>Consummable</string>
+    <string>Item</string>
+    <string>Ration Ingredient</string>
+    <string>Ingredient Cook</string>
+    <string>Ingredient</string>
+  </Tags>
+  <StatsHolder>
+    <BaseValue>30</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
+  <ExtensionsEditBehaviour>NONE</ExtensionsEditBehaviour>
+  <ItemExtensions>
+    <SL_ItemExtension xsi:type="SL_Perishable">
+      <Savable>false</Savable>
+      <BaseDepletionRate>0.35</BaseDepletionRate>
+      <DisableInInventory>false</DisableInInventory>
+      <DontPerishInWorld>false</DontPerishInWorld>
+      <DontPerishSkipTime>false</DontPerishSkipTime>
+      <OverrideUpdateRate>-1</OverrideUpdateRate>
+    </SL_ItemExtension>
+  </ItemExtensions>
+  <EffectBehaviour>OverrideEffects</EffectBehaviour>
+  <EffectTransforms>
+    <SL_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_AffectFood">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>275</AffectQuantity>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Health Recovery 5</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Mana Ratio Recovery 2</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Gaberry Wine</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CleanseType>StatusSpecific</CleanseType>
+          <SelectorValue>Confusion</SelectorValue>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </EffectTransforms>
+</SL_Item>

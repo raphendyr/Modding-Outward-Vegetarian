@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Target_ItemID>4100520</Target_ItemID>
+  <New_ItemID>-3107</New_ItemID>
+  <Name>Spring Salad</Name>
+  <Description>Mixture of vegetables and mushrooms that heals a bit, but can fill an empty stomach.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable xsi:nil="true" />
+  <IsUsable xsi:nil="true" />
+  <QtyRemovedOnUse xsi:nil="true" />
+  <GroupItemInDisplay xsi:nil="true" />
+  <HasPhysicsWhenWorld xsi:nil="true" />
+  <RepairedInRest xsi:nil="true" />
+  <BehaviorOnNoDurability xsi:nil="true" />
+  <CastType xsi:nil="true" />
+  <CastModifier xsi:nil="true" />
+  <CastLocomotionEnabled xsi:nil="true" />
+  <MobileCastMovementMult xsi:nil="true" />
+  <CastSheatheRequired xsi:nil="true" />
+  <OverrideSellModifier xsi:nil="true" />
+  <Tags>
+    <string>Dish</string>
+    <string>Food</string>
+    <string>Consummable</string>
+    <string>Item</string>
+    <string>Ration Ingredient</string>
+    <string>Ingredient Cook</string>
+    <string>Ingredient</string>
+  </Tags>
+  <StatsHolder>
+    <BaseValue>8</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
+  <ExtensionsEditBehaviour>NONE</ExtensionsEditBehaviour>
+  <ItemExtensions>
+    <SL_ItemExtension xsi:type="SL_Perishable">
+      <Savable>false</Savable>
+      <BaseDepletionRate>0.42</BaseDepletionRate>
+      <DisableInInventory>false</DisableInInventory>
+      <DontPerishInWorld>false</DontPerishInWorld>
+      <DontPerishSkipTime>false</DontPerishSkipTime>
+      <OverrideUpdateRate>-1</OverrideUpdateRate>
+    </SL_ItemExtension>
+  </ItemExtensions>
+  <EffectBehaviour>OverrideEffects</EffectBehaviour>
+  <EffectTransforms>
+    <SL_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_AffectFood">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>225</AffectQuantity>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Health Recovery 3</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Stealth Up</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CleanseType>StatusSpecific</CleanseType>
+          <SelectorValue>Confusion</SelectorValue>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </EffectTransforms>
+</SL_Item>

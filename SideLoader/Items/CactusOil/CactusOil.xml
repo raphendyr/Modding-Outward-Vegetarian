@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Target_ItemID>4300060</Target_ItemID>
+  <New_ItemID>-3113</New_ItemID>
+  <Name>Cactus Oil</Name>
+  <Description>Crushed marsh insects that emit a luminous haze, used in some alchemical recipes.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable xsi:nil="true" />
+  <IsUsable xsi:nil="true" />
+  <QtyRemovedOnUse xsi:nil="true" />
+  <GroupItemInDisplay xsi:nil="true" />
+  <HasPhysicsWhenWorld xsi:nil="true" />
+  <RepairedInRest xsi:nil="true" />
+  <BehaviorOnNoDurability xsi:nil="true" />
+  <CastType xsi:nil="true" />
+  <CastModifier xsi:nil="true" />
+  <CastLocomotionEnabled xsi:nil="true" />
+  <MobileCastMovementMult xsi:nil="true" />
+  <CastSheatheRequired xsi:nil="true" />
+  <OverrideSellModifier xsi:nil="true" />
+  <Tags>
+    <string>Item</string>
+    <string>Consummable</string>
+  </Tags>
+  <StatsHolder>
+    <BaseValue>8</BaseValue>
+    <RawWeight>0.3</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <ExtensionsEditBehaviour>NONE</ExtensionsEditBehaviour>
+  <ItemExtensions>
+    <SL_ItemExtension xsi:type="SL_MultipleUsage">
+      <Savable>true</Savable>
+      <AppliedOnPrice>true</AppliedOnPrice>
+      <AppliedOnWeight>true</AppliedOnWeight>
+      <AutoStack>true</AutoStack>
+      <MaxStackAmount>999</MaxStackAmount>
+    </SL_ItemExtension>
+  </ItemExtensions>
+  <EffectBehaviour>OverrideEffects</EffectBehaviour>
+  <EffectTransforms>
+    <SL_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Environment Heat Resistance</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_CureDisease">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CleanseType>StatusFamily</CleanseType>
+          <SelectorValue>tWe4Kv_Oik6LysHxZbzF2Q</SelectorValue>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+    <SL_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Position>
+        <x>131.2994</x>
+        <y>1029.63</y>
+        <z>25.20007</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>88.98882</y>
+        <z>0</z>
+      </Rotation>
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_USE_DrinkPotion</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </EffectTransforms>
+</SL_Item>

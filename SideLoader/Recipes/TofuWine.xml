@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UID>github.raphendyr.vegetarian.tofuwine</UID>
+  <StationType>Cooking</StationType>
+  <Ingredients>
+    <Ingredient>
+      <Type>AddSpecificIngredient</Type>
+      <SelectorValue>-3106</SelectorValue>
+      <Ingredient_ItemID>0</Ingredient_ItemID>
+    </Ingredient>
+    <Ingredient>
+      <Type>AddSpecificIngredient</Type>
+      <SelectorValue>-3101</SelectorValue>
+      <Ingredient_ItemID>0</Ingredient_ItemID>
+    </Ingredient>
+    <Ingredient>
+      <Type>AddSpecificIngredient</Type>
+      <SelectorValue>4100590</SelectorValue>
+      <Ingredient_ItemID>0</Ingredient_ItemID>
+    </Ingredient>
+    <Ingredient>
+      <Type>AddSpecificIngredient</Type>
+      <SelectorValue>-3113</SelectorValue>
+      <Ingredient_ItemID>0</Ingredient_ItemID>
+    </Ingredient>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemID>-3109</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</SL_Recipe>

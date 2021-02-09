@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UID>github.raphendyr.vegetarian.enmerkarsushi</UID>
+  <StationType>Cooking</StationType>
+  <Ingredients>
+    <Ingredient>
+      <Type>AddSpecificIngredient</Type>
+      <SelectorValue>6000060</SelectorValue>
+      <Ingredient_ItemID>0</Ingredient_ItemID>
+    </Ingredient>
+    <Ingredient>
+      <Type>AddSpecificIngredient</Type>
+      <SelectorValue>4100440</SelectorValue>
+      <Ingredient_ItemID>0</Ingredient_ItemID>
+    </Ingredient>
+    <Ingredient>
+      <Type>AddSpecificIngredient</Type>
+      <SelectorValue>4100450</SelectorValue>
+      <Ingredient_ItemID>0</Ingredient_ItemID>
+    </Ingredient>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemID>-3117</ItemID>
+      <Quantity>2</Quantity>
+    </ItemQty>
+  </Results>
+</SL_Recipe>
