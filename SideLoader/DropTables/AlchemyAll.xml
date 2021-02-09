@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UID>github.raphendyr.vegetarian.alchemyall</UID>
+  <GuaranteedDrops />
+  <RandomTables>
+    <SL_RandomDropGenerator>
+      <MinNumberOfDrops>1</MinNumberOfDrops>
+      <MaxNumberOfDrops>1</MaxNumberOfDrops>
+      <NoDrop_DiceValue>70</NoDrop_DiceValue>
+      <Drops>
+        <SL_ItemDropChance>
+          <MinQty>1</MinQty>
+          <MaxQty>3</MaxQty>
+          <DroppedItemID>-3113</DroppedItemID>
+          <DiceValue>10</DiceValue>
+        </SL_ItemDropChance>
+      </Drops>
+    </SL_RandomDropGenerator>
+  </RandomTables>
+</SL_DropTable>

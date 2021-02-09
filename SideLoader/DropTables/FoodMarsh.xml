@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UID>github.raphendyr.vegetarian.foodmarsh</UID>
+  <GuaranteedDrops>
+    <SL_ItemDrop>
+      <MinQty>1</MinQty>
+      <MaxQty>1</MaxQty>
+      <DroppedItemID>-3006</DroppedItemID>
+    </SL_ItemDrop>
+    <SL_ItemDrop>
+      <MinQty>1</MinQty>
+      <MaxQty>1</MaxQty>
+      <DroppedItemID>-3018</DroppedItemID>
+    </SL_ItemDrop>
+    <SL_ItemDrop>
+      <MinQty>3</MinQty>
+      <MaxQty>6</MaxQty>
+      <DroppedItemID>-3102</DroppedItemID>
+    </SL_ItemDrop>
+  </GuaranteedDrops>
+  <RandomTables>
+    <SL_RandomDropGenerator>
+      <MinNumberOfDrops>1</MinNumberOfDrops>
+      <MaxNumberOfDrops>1</MaxNumberOfDrops>
+      <NoDrop_DiceValue>90</NoDrop_DiceValue>
+      <Drops>
+        <SL_ItemDropChance>
+          <MinQty>1</MinQty>
+          <MaxQty>2</MaxQty>
+          <DroppedItemID>-3118</DroppedItemID>
+          <DiceValue>10</DiceValue>
+        </SL_ItemDropChance>
+      </Drops>
+    </SL_RandomDropGenerator>
+  </RandomTables>
+</SL_DropTable>

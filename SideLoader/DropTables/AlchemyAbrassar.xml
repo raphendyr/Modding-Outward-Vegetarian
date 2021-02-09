@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UID>github.raphendyr.vegetarian.alchemyabrassar</UID>
+  <GuaranteedDrops>
+    <SL_ItemDrop>
+      <MinQty>1</MinQty>
+      <MaxQty>1</MaxQty>
+      <DroppedItemID>-3013</DroppedItemID>
+    </SL_ItemDrop>
+    <SL_ItemDrop>
+      <MinQty>2</MinQty>
+      <MaxQty>4</MaxQty>
+      <DroppedItemID>-3113</DroppedItemID>
+    </SL_ItemDrop>
+  </GuaranteedDrops>
+  <RandomTables />
+</SL_DropTable>

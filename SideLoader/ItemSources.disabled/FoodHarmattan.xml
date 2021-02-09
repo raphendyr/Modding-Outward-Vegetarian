@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_DropTableAddition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IdentifierName>Food Harmattan</IdentifierName>
+  <SelectorTargets>
+    <string>Elc5BIFbGk2iT7q3_8UhFw</string><!-- Harmattan - Pelletier Baker, Chef -->
+  </SelectorTargets>
+  <DropTableUIDsToAdd>
+    <string>github.raphendyr.vegetarian.foodharmattan</string>
+  </DropTableUIDsToAdd>
+</SL_DropTableAddition>

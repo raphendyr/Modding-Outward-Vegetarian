@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_DropTableAddition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IdentifierName>Shop Chersonese</IdentifierName>
+  <SelectorTargets>
+    <string>jFw7BReLDkW6NT5msHloig</string><!-- Cierzo - Shopkeeper Doran -->
+  </SelectorTargets>
+  <DropTableUIDsToAdd>
+    <string>github.raphendyr.vegetarian.shopchersonese</string>
+  </DropTableUIDsToAdd>
+</SL_DropTableAddition>

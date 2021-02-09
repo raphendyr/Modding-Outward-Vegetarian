@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UID>github.raphendyr.vegetarian.foodchersonese</UID>
+  <GuaranteedDrops>
+    <SL_ItemDrop>
+      <MinQty>1</MinQty>
+      <MaxQty>1</MaxQty>
+      <DroppedItemID>-3002</DroppedItemID>
+    </SL_ItemDrop>
+    <SL_ItemDrop>
+      <MinQty>6</MinQty>
+      <MaxQty>8</MaxQty>
+      <DroppedItemID>-3102</DroppedItemID>
+    </SL_ItemDrop>
+  </GuaranteedDrops>
+  <RandomTables />
+</SL_DropTable>
