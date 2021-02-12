@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropTableAlteration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetType>Merchant</TargetType>
+  <MatchAll>
+    <!-- Harmattan - Pelletier Baker, Chef -->
+    <Scene>Harmattan</Scene>
+    <OwnerUID>Elc5BIFbGk2iT7q3_8UhFw</OwnerUID>
+  </MatchAll>
+  <Alterations>
+    <AdditionalDropTablesByUID>
+      <UID>github.raphendyr.vegetarian.foodharmattan</UID>
+    </AdditionalDropTablesByUID>
+  </Alterations>
+  <Filters />
+</DropTableAlteration>

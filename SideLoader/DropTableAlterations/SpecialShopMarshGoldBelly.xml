@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropTableAlteration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetType>Merchant</TargetType>
+  <MatchAll>
+    <!-- Giants’ Village - Gold Belly -->
+    <Scene>Hallowed_Dungeon2</Scene>
+    <OwnerUID>bROKm3_EiE6qfCNdxCAk6A</OwnerUID>
+  </MatchAll>
+  <Alterations>
+    <AdditionalDropTablesByUID>
+      <UID>github.raphendyr.vegetarian.marshgiantfood</UID>
+    </AdditionalDropTablesByUID>
+  </Alterations>
+  <Filters />
+</DropTableAlteration>

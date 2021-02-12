@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropTableAlteration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetType>Merchant</TargetType>
+  <MatchAny>
+    <All>
+      <!-- Levant - Tuan the Alchemist -->
+      <Scene>Levant</Scene>
+      <Any>
+        <OwnerUID>HS2mp9CeskCtxhiPQbBmXA</OwnerUID>
+        <OwnerUID>VM81kCzv2kaK7feq8DyncA</OwnerUID>
+      </Any>
+    </All>
+    <All>
+      <!-- Cierzo - Helmi the Alchemist -->
+      <Scene>CierzoNewTerrain</Scene>
+      <OwnerUID>OjRsqb0O4E2ACtSIFLgTPg</OwnerUID>
+    </All>
+    <All>
+      <!-- Berg - Vay the Alchemist -->
+      <Scene>Berg</Scene>
+      <OwnerUID>VM81kCzv2kaK7feq8DyncA</OwnerUID>
+    </All>
+    <All>
+      <!-- Harmattan - Robyn Garnet, Alchemist -->
+      <Scene>Harmattan</Scene>
+      <Any>
+        <OwnerUID>3qimTq1wT0ykxJ45zP4EnQ</OwnerUID>
+        <OwnerUID>YMvgNzX7JEG6PnQdK1Z-Dg</OwnerUID>
+      </Any>
+    </All>
+    <All>
+      <!-- Monsoon - Laine the Alchemist -->
+      <Scene>Monsoon</Scene>
+      <OwnerUID>VM81kCzv2kaK7feq8DyncA</OwnerUID>
+    </All>
+  </MatchAny>
+  <Alterations>
+    <AdditionalDropTablesByUID>
+      <UID>github.raphendyr.vegetarian.alchemyall</UID>
+    </AdditionalDropTablesByUID>
+  </Alterations>
+</DropTableAlteration>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropTableAlteration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetType>Merchant</TargetType>
+  <MatchAny>
+    <All>
+      <!-- Levant - Chef Tenno -->
+      <Scene>Levant</Scene>
+      <Any>
+        <OwnerUID>gcoiwYEhK0uAm918k2c2Yg</OwnerUID>
+        <OwnerUID>tU2CKVUfS0So5X5HNinAIg</OwnerUID>
+      </Any>
+    </All>
+    <All>
+      <!-- Cierzo - Master-Chef Arago -->
+      <Scene>CierzoNewTerrain</Scene>
+      <OwnerUID>Ityds-MoT0yeuDsZWf3uig</OwnerUID>
+    </All>
+    <All>
+      <!-- Berg - Chef Iasu -->
+      <Scene>Berg</Scene>
+      <OwnerUID>tU2CKVUfS0So5X5HNinAIg</OwnerUID>
+    </All>
+    <All>
+      <!-- Harmattan - Pelletier Baker, Chef -->
+      <Scene>Harmattan</Scene>
+      <OwnerUID>Elc5BIFbGk2iT7q3_8UhFw</OwnerUID>
+    </All>
+    <All>
+      <!-- Monsoon - Ountz the Melon Farmer -->
+      <Scene>Monsoon</Scene>
+      <OwnerUID>tU2CKVUfS0So5X5HNinAIg</OwnerUID>
+    </All>
+  </MatchAny>
+  <Alterations>
+    <AdditionalDropTablesByUID>
+      <UID>github.raphendyr.vegetarian.foodall</UID>
+    </AdditionalDropTablesByUID>
+  </Alterations>
+</DropTableAlteration>

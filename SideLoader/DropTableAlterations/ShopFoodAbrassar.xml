@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropTableAlteration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetType>Merchant</TargetType>
+  <MatchAll>
+    <!-- Levant - Chef Tenno -->
+    <Scene>Levant</Scene>
+    <Any>
+      <OwnerUID>gcoiwYEhK0uAm918k2c2Yg</OwnerUID>
+      <OwnerUID>tU2CKVUfS0So5X5HNinAIg</OwnerUID>
+    </Any>
+  </MatchAll>
+  <Alterations>
+    <AdditionalDropTablesByUID>
+      <UID>github.raphendyr.vegetarian.foodabrassar</UID>
+    </AdditionalDropTablesByUID>
+  </Alterations>
+</DropTableAlteration>

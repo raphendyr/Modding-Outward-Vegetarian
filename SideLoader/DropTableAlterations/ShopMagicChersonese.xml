@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropTableAlteration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetType>Merchant</TargetType>
+  <MatchAny>
+    <All>
+      <!-- Conflux Chambers - Fourth Watcher -->
+      <Scene>Chersonese_Dungeon4_CommonPath</Scene>
+      <OwnerUID>9Qi1PDHnIUKf-eNT8Y3FJQ</OwnerUID>
+    </All>
+    <All>
+      <!-- Hermit's House - Agatha, Maiden of the Wind -->
+      <Scene>ChersoneseDungeonsSmall</Scene>
+      <OwnerUID>YMvgNzX7JEG6PnQdK1Z-Dg</OwnerUID>
+    </All>
+  </MatchAny>
+  <Alterations>
+    <AdditionalDropTablesByUID>
+      <UID>github.raphendyr.vegetarian.magicchersonese</UID>
+    </AdditionalDropTablesByUID>
+  </Alterations>
+</DropTableAlteration>

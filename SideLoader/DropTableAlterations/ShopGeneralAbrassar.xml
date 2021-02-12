@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropTableAlteration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetType>Merchant</TargetType>
+  <MatchAll>
+    <!-- Levant - Shopkeeper Suul -->
+    <Scene>Levant</Scene>
+    <Any>
+      <OwnerUID>6fSS8CIi70WgslppPjI54w</OwnerUID>
+      <OwnerUID>FU5328pcz025ME9tVRYP7g</OwnerUID>
+    </Any>
+  </MatchAll>
+  <Alterations>
+    <AdditionalDropTablesByUID>
+      <UID>github.raphendyr.vegetarian.shopabrassar</UID>
+    </AdditionalDropTablesByUID>
+  </Alterations>
+</DropTableAlteration>

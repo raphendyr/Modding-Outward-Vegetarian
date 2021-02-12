@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropTableAlteration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetType>TreasureChest</TargetType>
+  <MatchAny>
+    <DropableName>DropTable_Chersonese_Recipe_Basic_1</DropableName>
+  </MatchAny>
+  <Alterations>
+    <AddChanceDrops>
+      <ItemDropperSelectors />
+      <Drops>
+        <Absolute>
+          <ItemID>5700021</ItemID>
+          <MinDropCount>1</MinDropCount>
+          <MaxDropCount>1</MaxDropCount>
+          <DropChance>2</DropChance>
+        </Absolute>
+        <Absolute>
+          <ItemID>5700046</ItemID>
+          <MinDropCount>1</MinDropCount>
+          <MaxDropCount>1</MaxDropCount>
+          <DropChance>2</DropChance>
+        </Absolute>
+        <Absolute>
+          <ItemID>5700047</ItemID>
+          <MinDropCount>1</MinDropCount>
+          <MaxDropCount>1</MaxDropCount>
+          <DropChance>2</DropChance>
+        </Absolute>
+      </Drops>
+    </AddChanceDrops>
+    <RemoveChanceDrops>
+      <ItemDropperSelectors />
+      <ItemsToRemove>
+        <ItemID>4100270</ItemID>
+        <ItemID>4100180</ItemID>
+        <ItemID>4100240</ItemID>
+      </ItemsToRemove>
+    </RemoveChanceDrops>
+  </Alterations>
+</DropTableAlteration>

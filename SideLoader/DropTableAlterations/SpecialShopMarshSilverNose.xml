@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropTableAlteration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetType>Merchant</TargetType>
+  <MatchAll>
+    <!-- Hallowed Marsh - Silver-Nose the Trader -->
+    <Scene>HallowedMarshNewTerrain</Scene>
+    <OwnerUID>YMvgNzX7JEG6PnQdK1Z-Dg</OwnerUID>
+  </MatchAll>
+  <Alterations>
+    <AdditionalDropTablesByUID>
+      <UID>github.raphendyr.vegetarian.marshgiantfood</UID>
+    </AdditionalDropTablesByUID>
+  </Alterations>
+  <Filters />
+</DropTableAlteration>

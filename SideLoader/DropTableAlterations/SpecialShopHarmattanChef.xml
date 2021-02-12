@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropTableAlteration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetType>Merchant</TargetType>
+  <MatchAll>
+    <!-- Harmattan - Ibolya Battleborn, Chef -->
+    <Scene>Harmattan</Scene>
+    <Any>
+      <OwnerUID>YPcNrGC_o060vE8TZaCq7A</OwnerUID>
+      <OwnerUID>xlkX6BDg7kumwrn4tBJODA</OwnerUID>
+    </Any>
+  </MatchAll>
+  <Alterations>
+    <AdditionalDropTablesByUID>
+      <UID>github.raphendyr.vegetarian.harmattanchef</UID>
+    </AdditionalDropTablesByUID>
+  </Alterations>
+  <Filters />
+</DropTableAlteration>
